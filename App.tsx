@@ -14,8 +14,8 @@ const App = () => {
   return (
    <NavigationContainer>
     <NativeStack.Navigator>
-    <NativeStack.Screen component={EditableScreen} name={'EditScreen'}  options={{headerShown:false}}/>
     <NativeStack.Screen component={Home} name={'home'}  options={{headerShown:false}}/>
+    <NativeStack.Screen component={EditableScreen} name={'EditScreen'}  options={{headerShown:false}}/>
     </NativeStack.Navigator>
    </NavigationContainer>
   );
